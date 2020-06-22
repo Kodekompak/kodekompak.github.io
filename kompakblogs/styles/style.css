@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap');
+
+html {
+    background-color: #1A0A3A;
+    color: white;
+    font-size: 14px;
+}
+
+body, p {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+.mono {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.navbar {
+    background-color: #24124B;
+    border-bottom: 2px solid #51DE79;
+}
+
+.navbar-burger {
+    color: white;
+    height: auto;
+}
+
+.navbar-item img {
+    max-height: 3rem;
+    padding: 4px;
+}
+
+.burger:hover {
+    color: white;
+}
+
+#navbarBasicExample {
+    background-color: #24124B;
+}
+
+.navbar-item {
+    color: white;
+    background-color: #24124B;
+    font-size: 14px;
+}
+
+.navbar-end a:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    color: #51DE79;
+}
+
+.container {
+    max-width: 1000px;
+    padding-top: 82px;
+}
+
+.content-container {
+    max-width: 800px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-container p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.head-image-article {
+    width: 100%;
+    border: 2px solid #49239A;
+}
+
+.head-image-event {
+    border: 2px solid #51DE79;
+}
+
+.head-image-tutorial {
+    border: 2px solid #FF7C32;
+}
+
+.content-container .title{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.article-tag {
+    text-align: center;
+    padding: 4px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #49239A;
+    margin-bottom: 24px;
+}
+
+.tutorial-tag {
+    text-align: center;
+    padding: 4px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    background-color: #FF7C32;
+    margin-bottom: 24px;
+    color: #1A0A3A;
+}
+
+.event-tag {
+    text-align: center;
+    padding: 4px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    background-color: #51DE79;
+    margin-bottom: 24px;
+    color: #1A0A3A;
+}
+
+.article-card {
+    background-color: #2B1754;
+    color: white;
+    border: 2px solid #49239A;
+    padding: 0;
+}
+
+.article-card a{
+    color: white;
+}
+
+.article-card:hover {
+    background-color: #231345;
+    color: #51DE79;
+    border: 2px solid #51DE79;
+}
+
+.event-card {
+    background-color: #51DE79;
+    color: #1A0A3A;
+    border: 2px solid #51DE79;
+    padding: 0;
+}
+
+.event-card a{
+    color: #1A0A3A;
+}
+
+.event-card:hover {
+    background-color: #51DEBC;
+    color: #1A0A3A;
+}
+
+.tutorial-card {
+    background-color: #FFC632;
+    color: #1A0A3A;
+    border: 2px solid #FFC632;
+    padding: 0;
+}
+
+.tutorial-card a {
+    color: #1A0A3A;
+}
+
+.tutorial-card:hover {
+    background-color: #FF7C32;
+    color: #1A0A3A;
+}
+
+.kk-item-column {
+    padding: 8px;
+}
+
+.article-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.tagline-image {
+    height: 82px;
+    width: auto;
+}
+
+.tagline-article {
+    background-color: #51DE79;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+}
+
+.tagline-event {
+    background-color: #49239A;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+}
+
+.tagline-tutorial {
+    background-color: #FF7C32;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+}
+
+.btn-more-info {
+    background-color: #1A0A3A;
+    color: white;
+    border-radius: 0;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn-more-info:hover {
+    background-color: #1A0A3A;
+    color: #51DE79;
+}
+
+.site-footer {
+    text-align: center;
+    border-top: 0.5px solid white;
+    padding: 24px;
+}
+
+.content h1, .content h2, .content h3, .content h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 32px;
+}
+
+.content p {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 4px !important;
+}
+
+.no-content-info {
+    text-align: center;
+    margin-top: 224px;
+    margin-bottom: 224px;
+}
