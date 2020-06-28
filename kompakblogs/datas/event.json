@@ -2,7 +2,12 @@
     "pages": [
       [
         [
-          
+          {
+            "title": "kompak_learning: Membuat web portofolio dari dasar",
+            "image": "/kompakblogs/images/mix/membuat_web_portofolio_dasar.png",
+            "prev": "Teknologi terus berkembang menjadi media yang membantu keseharian kita semua, diantaranya adalah Web, kemudahan nya diakses membuat web menjadi salah satu teknologi yang paling banyak digunakan",
+            "path": "/kompakblogs/contents/event/web-portofolio-dasar.html"
+          }
         ]
       ]
     ]
